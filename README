@@ -10,6 +10,11 @@ Start mongo (this app is using: mongodb://localhost/emberData)
 Ember-Cli
 sudo npm install -g ember-cli@2.6.2
 
+Note:
+make sure that your node.js and npm is update to date
+> npm update -g npm
+> n latest ( I am using n for managing node.js )
+
 SEVER API
 ------------
 Use mongoose and Express to make some server API for crud(create, read, update/patch, delete) operations
