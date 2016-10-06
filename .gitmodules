@@ -1,0 +1,3 @@
+[submodule "client"]
+	path = client
+	url = https://jusfeel@github.com/jusfeel/Tutorial-Ember-Mangoose-Client.git
