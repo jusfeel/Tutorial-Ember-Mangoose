@@ -46,6 +46,7 @@ run this under working tree
 run this under client/
 
 > npm install
+> bower install
 > ember s
 
 to fire off ember , then go to localhost:4200
