@@ -4,6 +4,12 @@ SEVER API
 ------------
 Use mongoose and Express to make some server API for crud(create, read, update/patch, delete) operations
 
+INSTALL
+------
+
+run this under api
+> npm install
+
 under api/ , run this to start server
 
 > node server
@@ -23,8 +29,9 @@ curl -X DELETE -H "Content-Type: application/json" http://localhost:4500/api/not
 
 EMBER APP
 ----------------
-run this under Example
+run this under client/
 
+> npm install
 > ember s
 
 to fire off ember , then go to localhost:4200
