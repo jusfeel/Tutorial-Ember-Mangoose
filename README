@@ -1,0 +1,25 @@
+#https://ivanheral.github.io/tutorial/2016/06/10/app-ember-mongo.html
+
+SEVER API
+------------
+Use mongoose and Express to make some server API for crud(create, read, update/patch, delete) operations
+
+under api/ , run this to start server
+
+> node server
+
+Testing the existing API or using postman:
+
+// ADD note
+curl -d '{"note":{"title":"Oliver Twist","content":"Oliver es un ni?o hu¨¦rfano.","author": "Charles Dickens"}}' -H "Content-Type: application/json" http://localhost:4500/api/notes
+
+// GET ALL
+curl http://localhost:4500/api/notes
+
+// DELETE note
+curl -X DELETE -H "Content-Type: application/json" http://localhost:4500/api/notes/(_id reemplazar por el identificador correcto)
+
+// Morgan module enables output on terminal ( success: green 200 on the terminal )
+
+
+
