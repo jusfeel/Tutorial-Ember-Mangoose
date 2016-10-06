@@ -21,5 +21,12 @@ curl -X DELETE -H "Content-Type: application/json" http://localhost:4500/api/not
 
 // Morgan module enables output on terminal ( success: green 200 on the terminal )
 
+EMBER APP
+----------------
+run this under Example
+
+> ember s
+
+to fire off ember , then go to localhost:4200
 
 
