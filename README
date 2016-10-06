@@ -6,8 +6,7 @@ Use mongoose and Express to make some server API for crud(create, read, update/p
 
 INSTALL
 ------
-
-run this under api
+run this under api/
 > npm install
 
 under api/ , run this to start server
@@ -29,6 +28,11 @@ curl -X DELETE -H "Content-Type: application/json" http://localhost:4500/api/not
 
 EMBER APP
 ----------------
+INSTALL
+------
+run this under working tree
+> git submodule update --init --recursive
+
 run this under client/
 
 > npm install
